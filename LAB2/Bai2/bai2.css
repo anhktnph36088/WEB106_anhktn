@@ -1,0 +1,36 @@
+body{
+    color: white;
+    
+}
+.khung1{
+    background-color: green;
+    border: 1px solid green;
+    margin: 10px 20%;
+    padding-left: 30px;    
+}
+.khung2{
+    background-color: orange;
+    text-align: center;
+    border: 1px solid orange;
+    margin: 10px 30%;
+}
+.khung3{
+    background-color: rgb(218, 158, 46);
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px 20%;
+}
+@media only screen and (max-width :768px){
+    body{
+        text-align: center;
+    }
+    .khung1{
+        margin: 10px 25%;
+    }
+    .khung2{
+        margin: 10px 30%;
+    }
+    .khung3{
+        margin: 10px 25%;
+    }
+}
