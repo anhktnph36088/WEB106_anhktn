@@ -1,0 +1,38 @@
+body{
+    margin: 10px;
+    border: 10px solid rgb(151, 238, 151);
+}
+.contenar1 {
+    background-color: white;
+    color: rgb(34, 204, 83);
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu {
+    background-color: green;
+    padding-left: 15px;
+    display: flex;
+    color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li {
+    padding-left: 20px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
