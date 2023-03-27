@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-family: Arial;
+    font-size: 5vwss;
+}
+.container{
+    float: right;
+    margin-top: 20px;
+}
+
+.container ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.container a {
+    padding: 5px ;
+}
+.navbar-nav {
+    padding-left: 30px;
+}
+.navbar-collapse{
+    padding-left: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.item:hover{
+    background-color: gray;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+nav ul {
+    display: flex;
+    margin-top: 10px;
+}
+nav li a {
+    display: block;
+    text-decoration: none;
+    margin: 5px 0 0 0;
+    padding: 5px 1rem;
+}
+.search {
+    width: 20px;
+    height: 20px;
+    margin: 10px 50px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 0 20px 0 20px;
+    gap: 10px;
+    
+}
+.danhmuc{
+    display: grid;
+    background-color: rgb(35, 33, 33);
+    color: white;
+    padding-top: 15px;
+    margin: 0;
+    white-space: nowrap;
+    justify-content: left;
+}
+.item2 {
+    padding-left:1%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.item2{
+    padding: 10px;
+}
+.sp {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    margin: 10px 20px 0 20px;
+
+}
+.sp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.flashsale {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px 20px 0 20px;
+}
+.fls , .textspn{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 30px;
+    white-space: nowrap;
+}
+.spfs {
+    display: grid;
+    gap: 10px;
+    border-top: 1px solid black;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.spfs img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+.spfs p , .spnew p {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.spfs p {
+    width: 60% ;
+}
+.b {
+    padding-left: 0px;
+}
+.item2{
+    padding-left: 5px;
+}
+.spnew {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+}   
+.spnew img {
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+}
+.styles {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-evenly;
+    gap: 0;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 35% 0 10% 10%;
+}
+.textstyle {
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 25px;
+}
+.styles img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+.hethong {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin: 10px 20px;
+    gap: 5px;
+}
+.hethong img {
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+.khachhang {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    margin: 10px 20px;
+}
+.khachhang img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+.thanks {
+    text-align: center;
+    border: 1px solid  gray;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+.footer , .footer a{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.ft {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-around;
+}
+@media screen and (max-width:700px) {
+    .container{
+        display: none;
+    }
+    .form-control {
+        width: 90vw;
+    }
+    .danhmuc {
+        display: none;
+    }
+    .container1 {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .banner{
+        width: 100%;
+        height: 100%;
+    }
+    .sp{
+    grid-template-columns: 50% 50%;
+    }
+    .noneimg{
+        grid-area: 2/3/3/3;
+    }
+    .spfs {
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+    .spnew {
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+    .styles{
+        grid-template-columns: 90%;
+        
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 10% 10%;
+    }
+    .right {
+        text-align: left;
+    }
+    .left {
+        text-align: right;
+    }
+}
