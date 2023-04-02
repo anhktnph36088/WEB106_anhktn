@@ -1,9 +1,8 @@
+
 body {
-    margin: 0;
-    padding: 0;
     display: grid;
     font-family: Arial;
-    font-size: 5vwss;
+    font-size: 5vw; 
 }
 .container{
     float: right;
@@ -12,7 +11,6 @@ body {
 
 .container ul{
     display: flex;
-    justify-content: flex-end;
     gap: 5px;
 }
 .container a {
@@ -76,7 +74,7 @@ nav li a {
     padding-top: 15px;
     margin: 0;
     white-space: nowrap;
-    justify-content: left;
+    justify-items: flex-start;
 }
 .item2 {
     padding-left:1%;
@@ -106,12 +104,16 @@ nav li a {
     border-radius: 20px;
     margin: 20px 20px 0 20px;
 }
-.fls , .textspn{
+.fls  {
     font-size: 30px;
     font-weight: bold;
     padding-left: 50px;
     padding-top: 30px;
     white-space: nowrap;
+}
+.textspn{
+    font-size: 30px;
+    font-weight: bold;
 }
 .spfs {
     display: grid;
@@ -267,7 +269,7 @@ nav li a {
     .text {
         display: flex;
         flex-direction: column;
-        padding: 0 0 10% 10%;
+        padding: 0 0 10% 0;
     }
     .right {
         text-align: left;
