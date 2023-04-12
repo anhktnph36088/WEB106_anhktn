@@ -21,7 +21,7 @@ body {
 
 .textt {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2em;
     margin-top: 2rem;
 }
 
@@ -56,10 +56,20 @@ body {
         display: grid;
         grid-template-columns: 100%;
     }
+    .textt {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 2rem;
+    }
     
 } 
 @media screen and (max-width: 1024px) {
     #none {
         display: none;
+    }
+    .textt {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 2rem;
     }
 }
